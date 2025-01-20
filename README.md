@@ -38,10 +38,14 @@ This project, hosted at [github.com/pippinlovesyou/pippin-mod](https://github.co
 
 ## Getting Started
 
-### Prerequisites
+### Using Replit
+For Replit-specific setup instructions, see [REPLIT_README.md](REPLIT_README.md)
+
+### Using GitHub
+#### Prerequisites
 - Node.js (v18 or higher)
 
-### Setup Instructions
+#### Setup Instructions
 
 1. Clone the repository:
    ```bash
@@ -93,10 +97,25 @@ This project, hosted at [github.com/pippinlovesyou/pippin-mod](https://github.co
 - Connect and configure Discord and OpenAI integrations in the "Settings" tab.
 - Generate Discord server rules directly from the dashboard.
 
+## Deployment
+
+1. Use Replit's Deployment feature by clicking the "Deploy" button
+2. Configure the following:
+   - Build Command: `npm run build`
+   - Run Command: `npm start`
+   - Port: 5000
+3. Deploy your application
+
 ## Contributing
 
-Contributions to Pippin-Mod are welcome! Please submit issues or pull requests via the GitHub repository.
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
